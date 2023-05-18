@@ -1,18 +1,15 @@
 # Grupo_04_TSDWAD
 Proyectos elaborados por estudiantes del ISPC en la técnicatura de Técnico Superior en desarrollo web y aplicaciones digitales.
 Integrantes del grupo son:
-marcoscordobaa.mc@gmail.com	marcos cordoba
-lualtamirano16@gmail.com	lucia
-valeangelett11@gmail.com	Vale
-Florencianoelcarrillo@gmail.com
-romyandrade_2290@outlook.com
-florcastelucci97@gmail.com
-alfredbuchon@gmail.com
-emiliano1191@gmail.com  Jose Emiliano Arce
 
-
-
-
+•	marcoscordobaa.mc@gmail.com marcos cordoba
+•	lualtamirano16@gmail.com    lucia
+•	valeangelett11@gmail.com    Vale
+•	Florencianoelcarrillo@gmail.com
+•	romyandrade_2290@outlook.com
+•	florcastelucci97@gmail.com
+•	alfredbuchon@gmail.com
+•	emiliano1191@gmail.com  Jose Emiliano Arce
 
 
 Descripción del repositorio para el proyecto de estudiantes del Instituto Superior Politécnico Córdoba:
