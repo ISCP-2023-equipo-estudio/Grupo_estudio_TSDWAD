@@ -1,0 +1,105 @@
+Evidencia 3
+Requisitos de finalización
+Apertura: lunes, 15 mayo 2023, 12:00 AM
+Cierre: lunes, 22 mayo 2023, 5:59 PM
+Deberán subir al repo de GitHub la siguiente información:
+
+DER.
+Script de creación de base de datos.
+Clase de conexión a MySQL desde Python.
+El desarrollo del punto 3.
+Solo subirán en la entrega de la actividad el link del repo de GitHub.
+
+TODOS los integrantes del grupo deben realizar la entrega.
+
+
+
+En esta SEGUNDA entrega del proyecto, deberán crear la base de datos y obtener el script de la misma. 
+
+Además crear en Python un proyecto en donde realicen la conexión a la base de datos.
+
+Y por último, realizar el análisis de lo mencionado en el punto 3.
+
+Crear la base de datos (Diagrama DER y Script).
+
+Conectarse desde Python.
+
+Luego de analizar la Ley 25.326 (Ley de protección de datos personales), ¿Cuáles te parecen son los principales aspectos a tener en cuenta en la base de datos a realizar?
+
+
+
+Actividad Integradora del módulo
+
+Condiciones generales de entrega
+
+Trabajo grupal, de 3(tres) o 4(cuatro) integrantes.
+
+Utilización y entrega mediante repo de GitHub.
+
+Trabajo colaborativo demostrado en el repositorio.
+
+
+Criterios de evaluación
+Cumplimentar TODAS las consignas.
+
+Trabajo colaborativo:
+
+Manejo de rama por integrante.
+
+Todos los integrantes deben realizar commits.
+
+División de tareas y creación de issues.
+
+
+Fecha de entrega
+Entregas parciales en tiempo y forma.
+
+Proyecto completo al fin del cuatrimestre
+
+
+La realización y entrega de la presente actividad, se realizará en grupos y respetando el cronograma de entregas parciales citadas en el mosaico ACTIVIDADES INTEGRADORAS DEL MÓDULO.
+
+
+
+Requerimiento
+
+La empresa "Big Bread SA" nos ha expresado que necesitan alguna manera de poder informatizar la primera parte de su proceso productivo, que consta de la preparación de los materiales para la producción del día. 
+
+Todos los días al llegar, deben realizar el mismo trabajo para cada producto que van a producir el día: 
+
+En base a la cantidad deseada de producción diaria deben calcular la cantidad de materia prima de cada insumo necesario para el mismo, buscarlo, dejarlos disponibles todos juntos y comenzar la producción. 
+
+Se necesita poder proveer de una solución informática e innovadora que pueda automatizar al máximo dicho cálculo y facilitar la tarea inicial.
+
+
+
+Análisis de Requerimiento
+
+Luego de trabajarlo con el equipo de TI, se propone:
+Crear una Calculadora de insumos, que reciba la receta que se desea producir, y la cantidad que harán.
+La misma retornará los insumos con sus cantidades requeridas para la producción indicada. 
+También proveerá los siguientes reportes:
+•Producción total de un día ingresado.
+•Producción total de un rango de tiempo ingresado.
+•Cantidad de insumos utilizados en un día ingresado.
+
+
+Requerimientos Funcionales
+Crear, editar, eliminar PRODUCTOS.
+
+Crear, editar, eliminar INSUMOS.
+
+Crear, editar, eliminar PRODUCCIÓN DIARIA.
+
+Crear, editar, eliminar RECETAS.
+
+LISTAR toda la producción de un día específico.
+
+LISTAR toda la producción en un rango de fechas específico.
+
+LISTAR todos los insumos para la producción de un día específico.
+
+
+
+La realización y entrega de la presente actividad, se realizará en grupos y respetando el cronograma de entregas parciales citadas en el mosaico ACTIVIDADES INTEGRADORAS DEL MÓDULO.
+

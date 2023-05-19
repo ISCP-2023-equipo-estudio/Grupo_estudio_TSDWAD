@@ -1,0 +1,18 @@
+Luego de analizar la Ley 25.326 (Ley de protección de datos personales)
+Mis disculpas por la confusión anterior. A continuación, citaré los artículos de la Ley 25.326 (Ley de protección de datos personales) que se relacionan con los aspectos mencionados en la respuesta anterior:
+
+1. Consentimiento informado: El artículo 5 de la Ley establece la necesidad de obtener el consentimiento del titular de los datos de manera expresa, inequívoca e informada para el tratamiento de sus datos personales.
+
+2. Finalidad y proporcionalidad: El artículo 4 establece el principio de calidad de los datos, que requiere que los datos sean adecuados, pertinentes y no excesivos en relación con la finalidad para la cual fueron recopilados.
+
+3. Seguridad de los datos: El artículo 9 establece la obligación de adoptar medidas de seguridad técnicas y organizativas adecuadas para proteger los datos personales y evitar su alteración, pérdida, acceso no autorizado o tratamiento no permitido.
+
+4. Derechos de los titulares: Los derechos de acceso, rectificación, cancelación y oposición están contemplados en el artículo 14 de la Ley. Este artículo establece que los titulares de los datos tienen derecho a solicitar el acceso a sus datos personales, corregir información inexacta, cancelar datos que resulten innecesarios o excesivos, y oponerse al tratamiento de sus datos en determinadas circunstancias.
+
+5. Conservación de datos: El artículo 11 establece que los datos personales deben ser conservados durante el tiempo necesario para cumplir con la finalidad para la cual fueron recopilados, a menos que exista una obligación legal de conservarlos por un período más largo.
+
+6. Transferencia de datos: El artículo 12 establece los requisitos para la transferencia internacional de datos personales, incluyendo la necesidad de obtener el consentimiento del titular y garantizar un nivel adecuado de protección de los datos en el país receptor.
+
+7. Registro de la base de datos: El artículo 21 establece la obligación de registrar las bases de datos en el Registro Nacional de Bases de Datos, que es administrado por la autoridad de aplicación de la ley.
+
+Es importante consultar la ley en su totalidad para comprender todos los aspectos y disposiciones relacionadas con la protección de datos personales en Argentina.
