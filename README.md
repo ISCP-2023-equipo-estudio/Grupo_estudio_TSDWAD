@@ -3,14 +3,13 @@ Proyectos elaborados por estudiantes del ISPC en la técnicatura de Técnico Sup
 Integrantes del grupo son:
 
 •	marcoscordobaa.mc@gmail.com         Córdoba Marcos
-•	lualtamirano16@gmail.com            Altamirano Lucía 
 •	valeangelett11@gmail.com            Valentina Angeletti
 •	Florencianoelcarrillo@gmail.com     Florencia Noel Carrillo
 •	romyandrade_2290@outlook.com        Andrade Romina Belen
 •	florcastelucci97@gmail.com          Florencia Castelucci
 •	alfredbuchon@gmail.com              Buchon Alfredo
 •	emiliano1191@gmail.com              Jose Emiliano Arce
-•	cotyoli13@gmail.com                 Angulo Maria Jose
+
 
 Descripción del repositorio para el proyecto de estudiantes del Instituto Superior Politécnico Córdoba:
 
