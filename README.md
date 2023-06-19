@@ -10,6 +10,7 @@ Integrantes del grupo son:
 •	alfredbuchon@gmail.com              Alfredo Buchon
 •	emiliano1191@gmail.com              Jose Emiliano Arce
 •   valenballada12@gmail.com            Valentina Balladares 
+•valenballada12@gmail.com               Valentina Balladares 
 
 
 Descripción del repositorio para el proyecto de estudiantes del Instituto Superior Politécnico Córdoba:
