@@ -2,14 +2,14 @@
 Proyectos elaborados por estudiantes del ISPC en la técnicatura de Técnico Superior en desarrollo web y aplicaciones digitales.
 Integrantes del grupo son:
 
-•	marcoscordobaa.mc@gmail.com         Córdoba Marcos
+•	marcoscordobaa.mc@gmail.com         Marcos Córdoba
 •	valeangelett11@gmail.com            Valentina Angeletti
 •	Florencianoelcarrillo@gmail.com     Florencia Noel Carrillo
-•	romyandrade_2290@outlook.com        Andrade Romina Belen
+•	romyandrade_2290@outlook.com        Romina Belen Andrade
 •	florcastelucci97@gmail.com          Florencia Castelucci
-•	alfredbuchon@gmail.com              Buchon Alfredo
+•	alfredbuchon@gmail.com              Alfredo Buchon
 •	emiliano1191@gmail.com              Jose Emiliano Arce
-•valenballada12@gmail.com  Valentina Balladares 
+•   valenballada12@gmail.com            Valentina Balladares 
 
 
 Descripción del repositorio para el proyecto de estudiantes del Instituto Superior Politécnico Córdoba:
