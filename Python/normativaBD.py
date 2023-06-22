@@ -43,4 +43,3 @@ class NormativaBD():
         cursor = self.conexion.cursor()
         cursor.execute("DELETE FROM normativa WHERE codigo=?", (nroRegistro))
         print("Fue eliminado exitosamente")
-
