@@ -51,7 +51,12 @@ def buscarPorNroNormativa ():
     nroNormativa = int(input("Ingrese un numero de registro: "))
     bd.obtenerNormativaPorNroNormativa(nroNormativa)
 
-
+def actualizar():
+    print("\n--------Actualizar Categoría--------\n")
+    registro_id = int(input("Ingrese el número de categoría a actualizar: "))
+    campo = 'nombre'
+    nuevo_valor = input("Ingrese el nuevo valor del nombre de la categoría: ")
+    bd.actualizar_campo(registro_id, campo, nuevo_valor)
 
 def crearMenuPrincipal():
     opcion = " "
@@ -66,7 +71,7 @@ def crearMenuPrincipal():
         elif opcion == 3:
             print()
         elif opcion == 4:
-            print()
+            actualizar()
         elif opcion == 5:
             buscarPorNroNormativa()
         elif opcion == 6:

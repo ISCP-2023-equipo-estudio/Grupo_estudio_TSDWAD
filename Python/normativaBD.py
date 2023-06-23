@@ -107,4 +107,14 @@ class NormativaBD():
             y+=1
         return
     
-    
+    def actualizar_campo(self, registro_id, campo, nuevo_valor):
+        self.conexion.connect()
+        query = "UPDATE categoria SET {} = %s WHERE idcategoria = %s".format(campo)
+        valores = (nuevo_valor, registro_id)
+        cursor = self.conexion.cursor()
+        cursor.execute(query, valores)
+        self.conexion.commit()
+        if cursor.rowcount > 0:
+            print("Campo actualizado exitosamente.")
+        else:
+            print("No se encontró el registro o no se realizaron cambios.")
