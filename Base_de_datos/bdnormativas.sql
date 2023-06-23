@@ -105,8 +105,8 @@ COLLATE = utf8mb4_0900_ai_ci;
 USE bdnormativas;
 
 insert into categoria(nombre) values
-( "Laboral"),
-( "Penal"),
+("Laboral"),
+("Penal"),
 ("Civil"),
 ("Comercial"),
 ("Familia y Sucesiones"),
