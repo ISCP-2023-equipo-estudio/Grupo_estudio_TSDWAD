@@ -33,6 +33,10 @@ def insertarNuevaNormativa():
     palabras_clave = input("Ingrese palabras clave")
     bd.insertarNuevaNormativa()
 
+def buscar_pclave():
+    print("-------Buscar por palabras clave-----")
+    palabras_clave = input("Ingresa las palabras clave separadas por comas: ")
+    palabras_clave = [palabra.strip() for palabra in palabras_clave.split(",")]
 
 def eliminarNormativa():
     print("--------Eliminar--------")
