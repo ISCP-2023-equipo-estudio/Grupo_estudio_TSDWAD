@@ -1,5 +1,5 @@
 from normativaBD import *
-import datetime
+from datetime import datetime
 
 
 
@@ -16,22 +16,24 @@ def mostrarMenuPrincipal():
     print("[2] - ELIMINAR")
     print("[3] - MOSTRAR")
     print("[4] - ACTUALIZAR")
-    print("[5] - BUSCAR POR ID")
+    print("[5] - BUSCAR POR NUMERO DE NORMATIVA")
     print("[6] - BUSCAR POR PALABRAS CLAVE")
     print("[7] - SALIR")
     print("\n")
 
 def insertarNuevaNormativa():
     print("--------Insertar nueva ley--------")
-    idTipoNormativo = int(input("Ingrese el tipo de normativa"))
-    nro_normativa = int(input("Ingrese el número de normativa"))
-    fecha =  input("Ingrese la fecha de vigencia") #VER EL DATATIME
-    descripcion = input("Ingrese la descripcíon de la ley")
-    categoria = input("Ingrese la categoría")
-    juridiccion = input("Ingrese la juridicción ")
-    org_legislativo = input("Ingrese organo legislativo")
-    palabras_clave = input("Ingrese palabras clave")
-    bd.insertarNuevaNormativa()
+    bd.obtenerTipoNormativa()
+    idTipoNormativa = int(input(f"Ingrese el tipo de normativa: "))
+    nroNormativa = int(input("Ingrese el número de normativa: "))
+    fecha =  datetime.strptime(input("Ingrese la fecha de vigencia formato: DD/MM/AAAA : "), '%d/%m/%Y').date()
+    descripcion = input("Ingrese la descripcíon de la ley: ")
+    bd.obtenerCategorias()
+    categoria = input("Ingrese la categoría: ")
+    bd.obtenerJurisdicciones()
+    idTipoJurisdiccion = input("Ingrese la juridicción: ")
+    palabrasClave = input("Ingrese palabras clave separadas por coma: ")
+    bd.insertarNuevaNormativa(idTipoNormativa, nroNormativa, fecha, descripcion, categoria, idTipoJurisdiccion, palabrasClave  )
 
 def buscar_pclave():
     print("-------Buscar por palabras clave-----")
@@ -42,8 +44,13 @@ def buscar_pclave():
 def eliminarNormativa():
     print("--------Eliminar--------")
     bd.consultarNormativas()
-    nroNormativa = input("Ingrese el numero de registro que desee eliminar")
+    nroNormativa = int(input("Ingrese el numero de registro que desee eliminar: "))
     bd.eliminarNormativa(nroNormativa)
+
+def buscarPorNroNormativa ():
+    nroNormativa = int(input("Ingrese un numero de registro: "))
+    bd.obtenerNormativaPorNroNormativa(nroNormativa)
+
 
 
 def crearMenuPrincipal():
@@ -64,6 +71,8 @@ def crearMenuPrincipal():
         elif opcion == 4:
             print()
         elif opcion == 5:
+            buscarPorNroNormativa()
+        elif opcion == 7:
             print("Saliendo...")
         else:
             print("Opción incorrecta")
