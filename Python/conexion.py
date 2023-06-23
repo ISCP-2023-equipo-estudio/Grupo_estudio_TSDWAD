@@ -32,3 +32,13 @@ class MySQLConnection:
     
     def commit(self):
         self.connection.commit()
+
+connection = MySQLConnection(
+    host='localhost',
+    user='root', 
+    password='9111',
+    port='3306',
+    database='bdnormativas'
+)
+# Establecer la conexión
+connection.connect()
