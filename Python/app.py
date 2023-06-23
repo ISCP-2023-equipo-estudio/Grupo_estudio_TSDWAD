@@ -47,7 +47,8 @@ def eliminarNormativa():
     bd.eliminarNormativa(nroNormativa)
 
 def buscarPorNroNormativa ():
-    nroNormativa = int(input("Ingrese un numero de registro: "))
+    print("--------Buscar por Número de Normativa--------")
+    nroNormativa = int(input("Ingrese el número de normativa a buscar: "))
     bd.obtenerNormativaPorNroNormativa(nroNormativa)
 
 def actualizar():

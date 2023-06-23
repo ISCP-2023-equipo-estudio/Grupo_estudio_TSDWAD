@@ -55,7 +55,7 @@ class NormativaBD():
             for x in range (8):
                 linea += str(normativas[y][x]) + "  |  "
             y+=1
-            print(linea)
+            print(i)
         return
 
 
