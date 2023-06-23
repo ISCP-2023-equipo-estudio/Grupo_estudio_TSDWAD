@@ -76,6 +76,7 @@ def crearMenuPrincipal():
             buscar_pclave()
         elif opcion == 6:
             print("Saliendo...")
+            break
         else:
             print("Opción incorrecta")
       

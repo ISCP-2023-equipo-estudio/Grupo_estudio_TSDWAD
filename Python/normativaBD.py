@@ -5,7 +5,7 @@ from conexion import *
 class NormativaBD():
     def __init__(self):
         #self.conexion = mysql.connector.connect(host="localhost", user="root", passwd="admin", database="bdnormativas")
-        self.conexion = MySQLConnection("localhost","root","admin", "bdnormativas")
+        self.conexion = MySQLConnection("localhost","root","admin", "bdnormativas", "3306")
 
     def obtenerTipoNormativa(self):
         self.conexion.connect()
