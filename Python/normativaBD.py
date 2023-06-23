@@ -42,6 +42,21 @@ class NormativaBD():
             y+=1
             print(linea)
         return
+    
+    def  obtenerNormativaPorNroNormativa(self,nroNormativa):
+        self.conexion.connect()
+        cursor=self.conexion.cursor()
+        cursor.execute("SELECT * FROM normativas WHERE nroNormativa=?" , (nroNormativa) ) 
+        normativas=cursor.fetchall() 
+        y=0
+        x=0
+        for i in normativas:
+            for x in range (9):
+                print(normativas[y][x])
+            y+=1
+        return
+
+
 
     def eliminarNormativa(self, nroRegistro):
         self.conexion.connect()
