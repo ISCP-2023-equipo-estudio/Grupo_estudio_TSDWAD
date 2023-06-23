@@ -14,11 +14,10 @@ def mostrarMenuPrincipal():
     print("MENÚ PRINCIPAL\n")
     print("[1] - INSERTAR")
     print("[2] - ELIMINAR")
-    print("[3] - MOSTRAR")
-    print("[4] - ACTUALIZAR")
-    print("[5] - BUSCAR POR NUMERO DE NORMATIVA")
-    print("[6] - BUSCAR POR PALABRAS CLAVE")
-    print("[7] - SALIR")
+    print("[3] - ACTUALIZAR")
+    print("[4] - BUSCAR POR NUMERO DE NORMATIVA")
+    print("[5] - BUSCAR POR PALABRAS CLAVE")
+    print("[6] - SALIR")
     print("\n")
 
 def insertarNuevaNormativa():
@@ -69,14 +68,12 @@ def crearMenuPrincipal():
         elif opcion == 2:
            eliminarNormativa()
         elif opcion == 3:
-            print()
-        elif opcion == 4:
             actualizar()
-        elif opcion == 5:
+        elif opcion == 4:
             buscarPorNroNormativa()
-        elif opcion == 6:
+        elif opcion == 5:
             buscar_pclave()
-        elif opcion == 7:
+        elif opcion == 6:
             print("Saliendo...")
         else:
             print("Opción incorrecta")
