@@ -61,17 +61,16 @@ def crearMenuPrincipal():
         
         if opcion == 1:
             insertarNuevaNormativa()
-    
         elif opcion == 2:
            eliminarNormativa()
-
-
         elif opcion == 3:
             print()
         elif opcion == 4:
             print()
         elif opcion == 5:
             buscarPorNroNormativa()
+        elif opcion == 6:
+            buscar_pclave()
         elif opcion == 7:
             print("Saliendo...")
         else:
