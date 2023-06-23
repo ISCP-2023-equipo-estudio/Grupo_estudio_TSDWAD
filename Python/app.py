@@ -16,7 +16,7 @@ def mostrarMenuPrincipal():
     print("[2] - ELIMINAR")
     print("[3] - MOSTRAR")
     print("[4] - ACTUALIZAR")
-    print("[5] - BUSCAR POR NUMERO DE REGISTRO")
+    print("[5] - BUSCAR POR NUMERO DE NORMATIVA")
     print("[6] - BUSCAR POR PALABRAS CLAVE")
     print("[7] - SALIR")
     print("\n")
