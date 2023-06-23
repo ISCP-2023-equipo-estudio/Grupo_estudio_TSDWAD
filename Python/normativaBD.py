@@ -74,8 +74,8 @@ class NormativaBD():
         query = "SELECT * FROM normativa WHERE "
         conditions = []
         for palabra in palabras_clave:
-            conditions.append("descripcion LIKE '%{}%'".format(palabra))
-        query += " AND ".join(conditions)
+            conditions.append("LOWER(palabasClaves) LIKE '%{}%'".format(palabra))
+        query += " OR ".join(conditions)
         cursor.execute(query)
         results = cursor.fetchall()
         for row in results:
