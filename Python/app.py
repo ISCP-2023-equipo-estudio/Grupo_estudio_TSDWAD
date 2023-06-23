@@ -37,6 +37,7 @@ def buscar_pclave():
     print("-------Buscar por palabras clave-----")
     palabras_clave = input("Ingresa las palabras clave separadas por comas: ")
     palabras_clave = [palabra.strip() for palabra in palabras_clave.split(",")]
+    bd.buscar_pclave(palabras_clave)
 
 def eliminarNormativa():
     print("--------Eliminar--------")
