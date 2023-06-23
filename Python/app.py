@@ -16,7 +16,7 @@ def mostrarMenuPrincipal():
     print("[2] - ELIMINAR")
     print("[3] - MOSTRAR")
     print("[4] - ACTUALIZAR")
-    print("[5] - BUSCAR POR ID")
+    print("[5] - BUSCAR POR NUMERO DE REGISTRO")
     print("[6] - BUSCAR POR PALABRAS CLAVE")
     print("[7] - SALIR")
     print("\n")
@@ -40,6 +40,11 @@ def eliminarNormativa():
     nroNormativa = input("Ingrese el numero de registro que desee eliminar")
     bd.eliminarNormativa(nroNormativa)
 
+def buscarPorNroNormativa ():
+    nroNormativa = int(input("Ingrese un numero de registro: "))
+    bd.obtenerNormativaPorNroNormativa(nroNormativa)
+
+
 
 def crearMenuPrincipal():
     opcion = " "
@@ -59,6 +64,7 @@ def crearMenuPrincipal():
         elif opcion == 4:
             print()
         elif opcion == 5:
+            buscarPorNroNormativa()
             print("Saliendo...")
         else:
             print("Opción incorrecta")
