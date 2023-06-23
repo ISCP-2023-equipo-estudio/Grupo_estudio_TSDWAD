@@ -67,6 +67,20 @@ class NormativaBD():
         self.conexion.commit()
         print("Fue eliminado exitosamente")
 
+    
+    def buscar_pclave(self, palabras_clave):
+        self.conexion.connect()
+        cursor = self.conexion.cursor()
+        query = "SELECT * FROM normativa WHERE "
+        conditions = []
+        for palabra in palabras_clave:
+            conditions.append("descripcion LIKE '%{}%'".format(palabra))
+        query += " AND ".join(conditions)
+        cursor.execute(query)
+        results = cursor.fetchall()
+        for row in results:
+            print(row)
+
     def obtenerCategorias(self):
         self.conexion.connect()
         cursor = self.conexion.cursor()
