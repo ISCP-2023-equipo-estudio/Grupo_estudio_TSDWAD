@@ -29,3 +29,6 @@ class MySQLConnection:
 
     def cursor(self):
         return self.connection.cursor()
+    
+    def commit(self):
+        self.connection.commit()
